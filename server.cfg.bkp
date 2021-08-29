@@ -1,9 +1,9 @@
-endpoint_add_tcp "0.0.0.0:30120"
-endpoint_add_udp "0.0.0.0:30120"
+endpoint_add_tcp "0.0.0.0:10001"
+endpoint_add_udp "0.0.0.0:10001"
 
 ## // Einde Database \\ ##
 
-set mysql_connection_string "mysql://root:@localhost/fivem-framework"
+set mysql_connection_string "mysql://root:@localhost/central_forward"
 set mysql_slow_query_warning 250
 set mysql_debug 0
 
@@ -22,22 +22,22 @@ exec resources.cfg
 
 # Allows lambda
 sv_scriptHookAllowed 0
-sv_licenseKey "ylwyf1j2tr6mnehlyonpn5t6wa60clz1"
+sv_licenseKey "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
-set steam_webApiKey "7B86717219F711B6B77EEA6F02BF21B9"
-rcon_password 9223372036854548741154872323232AKJjsmn
+set steam_webApiKey "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+rcon_password xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 # Rcon (not used)
 #rcon_password changeme
 
 # tags
 sets tags "ffa, indonesia, malaysia, esx"
 sets Discord "https://discord.gg/qMsgjWqRqW"
-sets FFA "Based On Roleplay"
-sets Server Status "Beta Test"
+sets Developer "Benjamin4k"
+sets help "naka#8558"
 
 # Banner
-sets banner_detail "https://i.imgur.com/JCf5bz8.png"
-sets banner_connecting "https://i.imgur.com/JCf5bz8.png"
+sets banner_detail "xxxxxxxxxxxxxxxxxxxxxxxxxx"
+sets banner_connecting "xxxxxxxxxxxxxxxxxxxxxxx"
 
 # Set your server's hostname
 sets sv_hostname "Central Framework v2"
@@ -61,8 +61,8 @@ set temp_convar "skrt"
 add_principal group.moderator
 add_ace group.admin command allow # allow all commands
 
-add_principal identifier.steam:110000142060e group.admin
-add_principal identifier.license:07e78c71880a8b66f17db37d4f52150df8ef02f1 group.admin
+add_principal identifier.steam:xxxxxxxxxxxx group.xxxxxxxx
+add_principal identifier.license:xxxxxxxxxxxxxxxxxxxxxxxx group.xxxxxxxx
 # Hide player endpoints in external log output.
 sv_endpointprivacy true
 
