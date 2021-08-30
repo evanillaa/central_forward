@@ -1,0 +1,21 @@
+[
+  {
+    "name": "benjamin4k",
+    "master": true,
+    "password_hash": "$2a$11$0IzexxauF6/Mwl1piff/E.RH0EZbG44hS28N82ljePaqVN8qK7JJ6",
+    "providers": {
+      "citizenfx": {
+        "id": "benjamin4k",
+        "identifier": "fivem:1212734",
+        "data": {
+          "sub": "a9f8e7465b0ef4d7c74da204a1af1d99",
+          "nameid": "https://forum.cfx.re/internal/user/1212734",
+          "name": "benjamin4k",
+          "picture": "https://forum.cfx.re/user_avatar/forum.cfx.re/benjamin4k/256/1304551_2.png",
+          "profile": "https://forum.cfx.re/u/benjamin4k"
+        }
+      }
+    },
+    "permissions": []
+  }
+]
