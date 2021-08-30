@@ -1,0 +1,41 @@
+Config = {}
+
+Config.Webhooks = {
+    ["default"] = "https://discord.com/api/webhooks/871403437944897596/Bun8MdHF_mLm8V-HbKSjgzvAM_43ElzGHVxUALtPT0R2ugO9Q9ONLqqdh0k0xyb7nZuN",
+    ["anticheat"] = "https://discord.com/api/webhooks/873784506627289149/yNIWqFWLnwTw9HdWqSH4WuVhp62Lk4wJ9yT39n6eoLvSjFDHuZcWyiTW0SqsjdTVKyXe",
+    ["playermoney"] = "",
+    ["playerinventory"] = "https://discord.com/api/webhooks/871440131997990942/raAsIF6TtjsbqmxFkiq45YPb7YU89_8ofFT5EUsEVm16kflIR1JMnN7fpxZP0k_YmT7-",
+    ["robbing"] = "",
+    ["cuffing"] = "",
+    ["drop"] = "",
+    ["trunk"] = "",
+    ["stash"] = "",
+    ["glovebox"] = "",
+    ["banking"] = "",
+    ["vehicleshop"] = "",
+    ["vehicleupgrades"] ="", 
+    ["shops"] = "", 
+    ["storerobbery"] = "https://discord.com/api/webhooks/873794297328181269/laiDXkV2Do9C7cQOOYJ7ECmRoMg2rVNf5JveG8_KY0qJd8CBEsqsT9_XmfFeXEgDXIMu",
+    ["dealers"] = "",
+    ["bankrobbery"] = "",
+    ["death"] = "https://discord.com/api/webhooks/871397950734102548/ycp0ZoKeik4hM4b4I2PO3IBQW_-k5Eeb31MnsIOes7GrlxXEeC9xNl3di17Q3PKULYnT",
+    ["joinleave"] = "https://discord.com/api/webhooks/881468184778117130/1v_HYxQ8Yddg8rQqqIITIPDhHuWqU2SgI2OyOXOuQzl5N740_9deh1_ID9m2lYbBL6Dp",
+    ['chat'] = "https://discord.com/api/webhooks/871394813726044250/F0uPFcREeBCl1hS30WCoFs6-Cd7uskDMCbeMKz86Co7X5veyPhRXam44GQ4r9WRQY8Ev",
+    ['bans'] = "",
+    ['banktruck'] = "",
+    ['humanelabs'] = "",
+}
+
+Config.Colors = {
+    ["default"] = 16711680,
+    ["blue"] = 25087,
+    ["green"] = 762640,
+    ["white"] = 16777215,
+    ["black"] = 0,
+    ["orange"] = 16743168,
+    ["lightgreen"] = 65309,
+    ["yellow"] = 15335168,
+    ["turqois"] = 62207,
+    ["pink"] = 16711900,
+    ["red"] = 16711680,
+}

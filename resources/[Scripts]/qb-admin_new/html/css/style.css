@@ -1,0 +1,198 @@
+body {
+ user-select: none;
+ font-weight: 600;
+ font-family: 'Lato', sans-serif;
+}
+
+.light-containter {
+ position: absolute;
+ display: none;
+ top: 15vh;
+ right: -45vh;
+ width: 39vh;
+ height: 50vh;
+ background-color: rgba(0, 0, 0, 0.5);
+ border-radius: 3px;
+ overflow-x: hidden;                  
+ overflow-y: auto;  
+}
+
+.player-options {
+  position: absolute;
+  display: none;
+  left: 40vh;
+  margin-left: 3vh;
+  margin-top: 2vh;
+}
+
+.start-select {
+  position: absolute;
+  /* display: none; */
+  left: 0vh;
+  margin-left: 3vh;
+  margin-top: 2vh;
+  height: 47vh;
+}
+
+.player-button-bottom {
+  position: absolute;
+  bottom: 0vh;
+  width: 33vh;
+  height: 6vh;
+  margin-bottom: 1vh;
+  border: .1vh solid white;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.player-button-bottom  > p {
+  text-align: center;
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.7vh;
+}
+
+.player-button {
+  width: 33vh;
+  height: 6vh;
+  margin-bottom: 1vh;
+  border: .1vh solid white;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.player-button > p {
+  text-align: center;
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.7vh;
+}
+
+.player-button:hover, .current-player:hover, .player-button-bottom:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.current-player {
+  width: 33vh;
+  height: 4vh;
+  margin-bottom: 1vh;
+  border: .1vh solid white;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.current-player > p {
+  text-align: center;
+  font-size: 1.2vh;
+  color: #fff;
+}
+
+.player-back-button, .player-back-button-2 {
+  position: absolute;
+  width: 39vh;
+  height: 1.5vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.player-back-button > p, .player-back-button-2 > p {
+  font-size: .5vh;
+  color: azure;
+  text-align: center;
+}
+
+.player-back-button:hover, player-back-button-2:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.player-back-button > p:hover, player-back-button-2 > p:hover {
+  animation: Rotate 2s infinite;
+}
+
+.players-container {
+  position: absolute;
+  left: 40vh;
+}
+
+.player-goto-options {
+ margin-bottom: 1vh;
+ background-color: rgba(0, 0, 0, 0.6);
+ width: 32.5vh;
+ height: 12vh;
+ border: 2px solid white;
+}
+
+.player-goto-options > p {
+ color: white;
+ margin-top: 1.4vh;
+ margin-left: 1.8vh;
+ font-size: 1.7vh;
+}
+
+.player-container {
+ position: relative;
+ float: left;
+ margin-left: 3.3vh;
+ margin-top: 2.0vh;
+}
+
+.spectate-button {
+  float: right;
+  width: 5vh;
+  height: 12vh;
+  background-color: rgb(80, 80, 80);
+}
+
+.spectate-button > p {
+  margin-top: 4.5vh;
+  color: #fff;
+  font-size: 2.5vh;
+  text-align: center;
+}
+
+.spectate-button:hover {
+  background-color: rgba(80, 80, 80, 0.719);
+}
+
+.spectate-button > p:hover {
+  color: rgba(255, 255, 255, 0.685);
+}
+ 
+::-webkit-scrollbar {
+  height: 1px;
+  width: 1px;
+}
+
+::-webkit-scrollbar-track {
+background: transparent;
+height: 1px;
+width: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+background: transparent;
+height: 1px;
+width: 1px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: transparent;
+} 
+
+@keyframes Rotate {
+  0% { 
+    transform: rotate(0deg);
+  }
+  25% { 
+    transform: rotate(20deg);
+  }
+  50% { 
+    transform: rotate(0deg);
+
+  }
+  75% { 
+    transform: rotate(20deg);
+  }
+  100% { 
+    transform: rotate(0deg);
+  }
+}

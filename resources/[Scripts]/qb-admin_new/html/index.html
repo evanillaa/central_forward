@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+    <body>
+        <div class="light-containter">
+            
+            <div class="player-options"> 
+                <div class="current-player">
+                    <p>Huidige Speler: Je MA</p>
+                </div>
+                <div class="player-button" data-type="kill"><p><i class="fas fa-skull"></i> Kill</p></div>
+                <div class="player-button" data-type="revive"><p><i class="fas fa-heartbeat"></i> Revive</p></div>
+                <div class="player-button"><p><i class="fas fa-icicles"></i> Freeze</p></div>
+                <div class="player-button"><p><i class="fas fa-ghost"></i> Noclip</p></div>
+                <div class="player-button" data-type="openinventory"><p><i class="fas fa-boxes"></i> Inventory</p></div>
+                <div class="player-button" data-type="giveclothing"><p><i class="fas fa-tshirt"></i> Clothing Menu</p></div>
+                <div class="player-button" data-type="banplayer"><p><i class="fas fa-gavel"></i> Ban</p></div>
+                <div class="player-button" data-type="kickplayer"><p><i class="fas fa-ticket-alt"></i> Kick</p></div>
+                <div class="player-button"><p><i class="fas fa-arrow-up"></i> Goto</p></div>
+                <div class="player-button"><p><i class="fas fa-arrow-down"></i> Bring</p></div>
+            </div>
+
+            <div class="start-select">
+                <div class="player-button" id="own-options"><p><i class="fas fa-binoculars"></i> Own Options</p></div>
+                <div class="player-button" id="player-options"><p><i class="fas fa-binoculars"></i> Playerlist</p></div>
+                <div class="player-button-bottom"><p><i class="fas fa-times-circle"></i></p></div>
+            </div>
+
+            <div class="players-container">
+                <div class="player-container">
+                </div>
+            </div>
+
+            <div class="player-back-button"><p><i class="fas fa-undo"></i></p></div>
+        </div>
+    </body>
+    <script type="text/javascript" src="./js/script.js"></script>
+</html>
